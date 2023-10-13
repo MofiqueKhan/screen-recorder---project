@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Screen Recording and Sending</title>
+  </head>
+  <body>
+    <button id="startButton">Start Recording</button>
+    <button id="stopButton" disabled>Stop Recording</button>
+    <!-- <div data-id="1">view video</div> -->
+    <button id="view-video">
+      <a href="./html/view-video.html?id=1">view-video</a>
+    </button>
+
+    <video id="recordedVideo" controls download></video>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script  src="./static/myScript.js" ></script>
+  </body>
+</html>
